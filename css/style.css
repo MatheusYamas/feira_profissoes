@@ -73,8 +73,8 @@ header{
     left: 0px;
     width: 0px;
     height: 1px;
-    background-color: #253237;
-    transition: all 1.5s ease;
+    background-color: white;
+    transition: all 0.4s ease;
 }
 
 .menu_content .list_itens a:hover:before{
@@ -117,7 +117,7 @@ main{
 */
 
 .sobre{
-    background-color: rgba(19, 19, 19, 1);
+    background-color: rgba(21, 21, 21, 1);
     height: 85vh;
     display: flex;
     justify-content: center;
@@ -141,3 +141,10 @@ main{
     color: rgb(164, 165, 165);
 }
 
+.universidades{
+    background-color: rgba(22, 22, 22, 1);
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
