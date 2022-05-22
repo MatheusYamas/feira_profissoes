@@ -172,3 +172,33 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+/* até ter o video fica assim
+
+.anima_video{
+    height: 300px;
+    width: 300px;
+    top: 1500px;
+    left: 150px;
+    animation: jogadinha 10s ease;
+}
+
+@keyframes jogadinha{
+    0%{
+
+    }
+    25%{
+
+    }
+    50%{
+
+    }
+    75%{
+
+    }
+    100%{
+
+    }
+}
+*/
+
