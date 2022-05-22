@@ -26,6 +26,7 @@ body{
     background-size: cover;
     background-position-y: 0px;
     background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 
 /* Menu - header - nav */
@@ -112,7 +113,31 @@ main{
     font-size: 20px;
     color: rgb(164, 165, 165);
     text-transform: uppercase;
-
 }
 */
+
+.sobre{
+    background-color: rgba(19, 19, 19, 1);
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tilt_text{
+    width: 1400px;
+    font-size: 25px;
+    margin-bottom: 200px;
+    text-align: left;
+}
+
+.content_text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 70px;
+    font-size: 18px;
+    color: rgb(164, 165, 165);
+}
 
