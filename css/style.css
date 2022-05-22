@@ -156,3 +156,11 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+.mercado_trabalho{
+    background-color: rgba(24, 24, 24, 1);
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
