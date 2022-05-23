@@ -202,3 +202,57 @@ main{
     }
 }
 */
+
+footer{
+    background-color: rgba(26, 26, 26, 1);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+}
+
+.footer_content{
+    display: flex;
+}
+
+.footer_content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content{
+    margin: 20px 0 0 0;
+}
+
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+
+.left .content .social a{
+    margin: 0 2px;
+}
+
+.left .content .social a span{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(26, 26, 26, 1);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.left .content .social a span:hover{
+    background: red;
+}
+
+.left .content p{
+    text-align: justify;
+}
+
