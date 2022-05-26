@@ -44,11 +44,11 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .logo{
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 0.4px;
     cursor: pointer;
 }
@@ -102,7 +102,7 @@ main{
 
 .text_primary{
     width: 850px;
-    font-size: 50px;
+    font-size: 45px;
     margin-bottom: 20px;
     text-align: center;
 }
