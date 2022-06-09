@@ -35,7 +35,7 @@ body{
 header{
     width: 100%;
     height: 7vw;
-    background: rgba(22, 22, 22, 0.3);
+    background: rgba(22, 22, 22, 0.6);
 }
 
 .menu_content{
@@ -44,11 +44,11 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .logo{
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 0.4px;
     cursor: pointer;
 }
@@ -74,7 +74,7 @@ header{
     left: 0px;
     width: 0px;
     height: 1px;
-    background-color: white;
+    background-color: #e91e63;
     transition: all 0.4s ease;
 }
 
@@ -95,14 +95,14 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:center;
 }
 
 /* textos conteudos */
 
 .text_primary{
     width: 850px;
-    font-size: 50px;
+    font-size: 45px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -117,9 +117,20 @@ main{
 }
 */
 
+/* Texto conteudos - landing page*/
+
+/* resolver sobre esse main text*/
+
+.main_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
 .sobre{
     background: linear-gradient(rgba(18, 18, 18, 1), rgba(21, 21, 21, 1));
-    height: 60vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,17 +140,16 @@ main{
     width: 1400px;
     height: 250;
     font-size: 25px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     text-align: left;
 }
 
 .content_text{
-    width: 1250px;
-    text-align: center;
+    width: 1400px;
+    text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 70px;
     font-size: 20px;
     color: rgb(190, 190, 190);
 }
