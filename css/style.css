@@ -74,7 +74,7 @@ header{
     left: 0px;
     width: 0px;
     height: 1px;
-    background-color: #e91e63;
+    background-color: #023e7d;
     transition: all 0.4s ease;
 }
 
@@ -119,8 +119,6 @@ main{
 
 /* Texto conteudos - landing page*/
 
-/* resolver sobre esse main text*/
-
 .main_text{
     display: flex;
     flex-direction: column;
@@ -129,8 +127,8 @@ main{
 }
 
 .sobre{
-    background: linear-gradient(rgba(18, 18, 18, 1), rgba(21, 21, 21, 1));
-    height: 70vh;
+    background: linear-gradient(rgba(18, 18, 18, 1), #253237);
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,11 +149,18 @@ main{
     flex-direction: column;
     justify-content: center;
     font-size: 20px;
-    color: rgb(190, 190, 190);
+}
+
+.color_black{
+    color: rgb(98, 111, 117);
+}
+
+.color_white{
+    color: rgb(171, 193, 193);
 }
 
 .universidades{
-    background: linear-gradient(rgba(21, 21, 21, 1), rgba(24, 24, 24, 1));
+    background: linear-gradient(#253237, #5C6B73);
     height: 60vh;
     display: flex;
     justify-content: center;
@@ -163,7 +168,7 @@ main{
 }
 
 .pos{
-    background: linear-gradient(rgba(24, 24, 24, 1), rgba(27, 27, 27, 1));
+    background: linear-gradient(#5C6B73, #9DB4C0);
     height: 60vh;
     display: flex;
     justify-content: center;
@@ -171,7 +176,7 @@ main{
 }
 
 .mercado_trabalho{
-    background: linear-gradient(rgba(27, 27, 27, 1), rgba(30, 30, 30, 1));
+    background: linear-gradient(#9DB4C0, #5C6B73);
     height: 60vh;
     display: flex;
     justify-content: center;
@@ -179,7 +184,7 @@ main{
 }
 
 .video{
-    background: linear-gradient(rgba(30, 30, 30, 1), rgba(33, 33, 33, 1));
+    background: linear-gradient(#5C6B73, #253237);
     height: 45vh;
     display: flex;
     justify-content: center;
@@ -213,11 +218,10 @@ main{
 
     }
 }
-background: linear-gradient(rgba(33, 33, 33, 1), rgba(36, 36, 36, 1));
 */
 
 footer{
-    background-color: rgb(38, 38, 38);
+    background-color: #262626;
     padding: 70px 0;
 }
 
