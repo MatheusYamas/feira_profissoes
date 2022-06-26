@@ -175,8 +175,8 @@ main{
 }
 
 .pos{
-    background-color: #081016;
-    height: 150vh;
+    background: linear-gradient(#253237, #9DB4C0);
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
