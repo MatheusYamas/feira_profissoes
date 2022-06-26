@@ -22,7 +22,7 @@ html{
 }
 
 body{
-    background: linear-gradient(rgba(15, 15, 15, 0.8), rgba(18, 18, 18, 1)), url('../img/inicio.jpg');
+    background: linear-gradient(rgba(15, 15, 15, 0.9), rgba(18, 18, 18, 1)), url('../img/inicio.jpg');
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
@@ -44,11 +44,11 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .logo{
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 0.4px;
     cursor: pointer;
 }
@@ -74,7 +74,7 @@ header{
     left: 0px;
     width: 0px;
     height: 1px;
-    background-color: #023e7d;
+    background-color: #e91e63;
     transition: all 0.4s ease;
 }
 
@@ -126,19 +126,19 @@ main{
     align-items: flex-start;
 }
 
-.sobre{
-    background: linear-gradient(rgba(18, 18, 18, 1), #253237);
-    height: 150vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .tilt_text{
     width: 1400px;
     height: 250;
-    font-size: 25px;
+    font-size: 50px;
     margin-bottom: 100px;
+    text-align: left;
+}
+
+.sub_tilt{
+    width: 1400px;
+    height: 250;
+    font-size: 35px;
+    margin-bottom: 20px;
     text-align: left;
 }
 
@@ -148,44 +148,51 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-.color_black{
-    color: rgb(98, 111, 117);
+.perfil{
+    background-color: rgba(15, 15, 15, 1);
+    height: 210vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.color_white{
-    color: rgb(171, 193, 193);
+#perfil_img{
+    width: 600px;
+    height: 445px;
+    float: left;
+    margin-right: 25px;
 }
 
-.universidades{
-    background: linear-gradient(#253237, #5C6B73);
-    height: 60vh;
+.curso{
+    background-color: rgba(15, 15, 15, 1);
+    height: 210vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .pos{
-    background: linear-gradient(#5C6B73, #9DB4C0);
-    height: 60vh;
+    background-color: #081016;
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .mercado_trabalho{
-    background: linear-gradient(#9DB4C0, #5C6B73);
-    height: 60vh;
+    background-color: #081016;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.video{
-    background: linear-gradient(#5C6B73, #253237);
-    height: 45vh;
+.depoimento{
+    background-color: rgba(15, 15, 15, 1);
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -301,3 +308,12 @@ ul{
     background-color: white;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #2e2e2e;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #e91e63;
+    border-radius: 10px;
+}
