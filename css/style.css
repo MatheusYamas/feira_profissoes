@@ -35,7 +35,7 @@ body{
 header{
     width: 100%;
     height: 7vw;
-    background: rgba(22, 22, 22, 0.6);
+    background: rgba(22, 22, 22, 0.9);
 }
 
 .menu_content{
@@ -152,7 +152,7 @@ main{
 }
 
 .perfil{
-    background-color: rgba(15, 15, 15, 1);
+    background-image: linear-gradient(to right, #08090B, #272B2E);
     height: 210vh;
     display: flex;
     justify-content: center;
@@ -167,15 +167,43 @@ main{
 }
 
 .curso{
-    background-color: rgba(15, 15, 15, 1);
-    height: 210vh;
+    background-image: linear-gradient(to right, #08090B, #272B2E);
+    height: 225vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+#curso_img{
+    width: 470px;
+    height: 313px;
+    float: left;
+    margin-right: 25px;
+}
+
+.faculdade{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+}
+
+.faculdade:hover {
+    border: 1px solid #777;
+  }
+  
+.faculdade img {
+    width: 100%;
+    height: auto;
+  }
+  
+.faculdade desc {
+    padding: 15px;
+    text-align: center;
+  }
+
 .pos{
-    background-color: #081016;
+    background-image: linear-gradient(to right, #08090B, #272B2E);
     height: 120vh;
     display: flex;
     justify-content: center;
@@ -183,7 +211,7 @@ main{
 }
 
 .mercado_trabalho{
-    background-color: #081016;
+    background-image: linear-gradient(to right, #08090B, #272B2E);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -191,7 +219,7 @@ main{
 }
 
 .depoimento{
-    background-color: rgba(15, 15, 15, 1);
+    background-image: linear-gradient(to right, #08090B, #272B2E);
     height: 60vh;
     display: flex;
     justify-content: center;
@@ -228,7 +256,7 @@ main{
 */
 
 footer{
-    background-color: #262626;
+    background-color: #141414;
     padding: 70px 0;
 }
 
@@ -317,4 +345,3 @@ ul{
     background-color: #e91e63;
     border-radius: 10px;
 }
-/*teste*/
