@@ -130,7 +130,7 @@ main{
     width: 1400px;
     height: 250;
     font-size: 50px;
-    margin-bottom: 100px;
+    margin-bottom: -25px;
     text-align: left;
 }
 
@@ -138,6 +138,7 @@ main{
     width: 1400px;
     height: 250;
     font-size: 35px;
+    margin-top: 100px;
     margin-bottom: 20px;
     text-align: left;
 }
@@ -153,7 +154,7 @@ main{
 
 .perfil{
     background-image: linear-gradient(to right, #08090B, #272B2E);
-    height: 210vh;
+    height: 250vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,7 +169,7 @@ main{
 
 .curso{
     background-image: linear-gradient(to right, #08090B, #272B2E);
-    height: 225vh;
+    height: 250vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,28 +184,28 @@ main{
 
 .faculdade{
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     float: left;
-    width: 200px;
+    width: 400px;
 }
 
 .faculdade:hover {
-    border: 1px solid #777;
-  }
+    border: 1px solid #e91e63;
+}
   
 .faculdade img {
     width: 100%;
     height: auto;
-  }
+}
+
+#fiap_img{
+    float: inline-start;
+}
   
-.faculdade desc {
-    padding: 15px;
-    text-align: center;
-  }
 
 .pos{
     background-image: linear-gradient(to right, #08090B, #272B2E);
-    height: 120vh;
+    height: 200vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,7 +213,7 @@ main{
 
 .mercado_trabalho{
     background-image: linear-gradient(to right, #08090B, #272B2E);
-    height: 100vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,10 +221,17 @@ main{
 
 .depoimento{
     background-image: linear-gradient(to right, #08090B, #272B2E);
-    height: 60vh;
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.video{
+    width: 916px; 
+    height: 515px;
+    margin-top: 150px;
+    margin-left: 250px;
 }
 
 /* até ter o video fica assim
