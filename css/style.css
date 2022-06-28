@@ -35,7 +35,7 @@ body{
 header{
     width: 100%;
     height: 7vw;
-    background: rgba(22, 22, 22, 0.9);
+    background: rgba(22, 22, 22, 0.95);
 }
 
 .menu_content{
@@ -153,33 +153,39 @@ main{
 }
 
 .perfil{
-    background-image: linear-gradient(to right, #08090B, #272B2E);
-    height: 250vh;
+    background-image: linear-gradient(to right, #212528, #000000);
+    height: 215vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.paragrafo{
+    margin-top: 75px;
+}
+
 #perfil_img{
-    width: 600px;
-    height: 445px;
+    width: 640px;
+    height: 427px;
     float: left;
-    margin-right: 25px;
+    margin-right: 50px;
+    border-right: 10px solid #e91e63;
+    border-radius: 5%;
 }
 
 .curso{
-    background-image: linear-gradient(to right, #08090B, #272B2E);
-    height: 250vh;
+    background-image: linear-gradient(to right, #212528, #000000);
+    height: 275vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #curso_img{
-    width: 470px;
-    height: 313px;
+    width: 500px;
+    height: 500px;
     float: left;
-    margin-right: 25px;
+    margin-right: 100px;
 }
 
 .faculdade{
@@ -204,24 +210,31 @@ main{
   
 
 .pos{
-    background-image: linear-gradient(to right, #08090B, #272B2E);
-    height: 200vh;
+    background-image: linear-gradient(to right, #212528, #000000);
+    height: 250vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+#aluno_img{
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-left: 100px;
+}
+
 .mercado_trabalho{
-    background-image: linear-gradient(to right, #08090B, #272B2E);
-    height: 75vh;
+    background-image: linear-gradient(to right, #212528, #000000);
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .depoimento{
-    background-image: linear-gradient(to right, #08090B, #272B2E);
-    height: 150vh;
+    background-image: linear-gradient(to right, #212528, #000000);
+    height: 175vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -264,7 +277,7 @@ main{
 */
 
 footer{
-    background-color: #141414;
+    background-color: #121212;
     padding: 70px 0;
 }
 
